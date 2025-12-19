@@ -43,7 +43,6 @@ const TicketContainer = ({ promise }) => {
     setTickes(remainingTickets);
   };
 
-  console.log(taskItems);
   return (
     <div className="bg-[#F5F5F5]">
       <div className="w-11/12 mx-auto py-6">
