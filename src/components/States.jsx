@@ -17,7 +17,10 @@ const States = ({ ticketTotal, resolvedTotal }) => {
       </div>
 
       {/* card2 */}
-      <div className=" bg-[linear-gradient(90deg,rgba(84,207,103.68,1),rgba(0,130,122.2,1))] w-1/2 px-10 py-14 text-center rounded-lg">
+      <div className="relative overflow-hidden bg-[linear-gradient(90deg,rgba(84,207,103.68,1),rgba(0,130,122.2,1))] w-1/2 px-10 py-14 text-center rounded-lg">
+        <div className="absolute top-0 left-0 w-full h-full bg-no-repeat bg-contain bg-[url('/vector1.png')]"></div>
+
+        <div className="absolute bottom-0 right-0  w-full h-full transform scale-x-[-1]  bg-no-repeat bg-contain bg-[url('/vector2.png')]"></div>
         <div>
           <p className="text-white font-normal text-[24px]">Resolved</p>
           <h3 className="text-white font-semibold text-6xl">{resolvedTotal}</h3>
