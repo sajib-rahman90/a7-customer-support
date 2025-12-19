@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "title": "Login issue on dashboard",
+    "description": "User can't access the dashboard after entering correct credentials.",
+    "customer": "Arman Hossain",
+    "priority": "HIGH PRIORITY",
+    "status": "Open",
+    "createdAt": "1/15/2024"
+  },
+  {
+    "id": 2,
+    "title": "Payment not processing",
+    "description": "Customer reports that the payment button freezes on checkout.",
+    "customer": "Razia Sultana",
+    "priority": "MEDIUM PRIORITY",
+    "status": "In-Progress",
+    "createdAt": "1/16/2024"
+  },
+  {
+    "id": 3,
+    "title": "Profile picture upload fails",
+    "description": "Upload request returns a 500 error every time.",
+    "customer": "Samiul Karim",
+    "priority": "MEDIUM PRIORITY",
+    "status": "In-Progress",
+    "createdAt": "1/17/2024"
+  },
+  {
+    "id": 4,
+    "title": "Email notifications delayed",
+    "description": "User receives notification emails 3 hours late.",
+    "customer": "Nusrat Jahan",
+    "priority": "LOW PRIORITY",
+    "status": "Open",
+    "createdAt": "1/18/2024"
+  },
+  {
+    "id": 5,
+    "title": "Search results not loading",
+    "description": "Search page stays stuck on the loading spinner.",
+    "customer": "Tanvir Ahmed",
+    "priority": "HIGH PRIORITY",
+    "status": "Open",
+    "createdAt": "1/19/2024"
+  },
+  {
+    "id": 6,
+    "title": "Incorrect total price shown",
+    "description": "Cart total doesn’t update after removing items.",
+    "customer": "Mira Rahman",
+    "priority": "MEDIUM PRIORITY",
+    "status": "In-Progress",
+    "createdAt": "1/20/2024"
+  },
+  {
+    "id": 7,
+    "title": "App crashes on startup",
+    "description": "Mobile app closes immediately after opening on Android.",
+    "customer": "Jamil Chowdhury",
+    "priority": "LOW PRIORITY",
+    "status": "Open",
+    "createdAt": "1/21/2024"
+  },
+  {
+    "id": 8,
+    "title": "Two-factor code not working",
+    "description": "User receives OTP but system says code is invalid.",
+    "customer": "Farzana Yeasmin",
+    "priority": "HIGH PRIORITY",
+    "status": "Open",
+    "createdAt": "1/22/2024"
+  },
+  {
+    "id": 9,
+    "title": "Dark mode not applying styles",
+    "description": "Some components remain in light mode even after switching.",
+    "customer": "Rezaul Islam",
+    "priority": "LOW PRIORITY",
+    "status": "Open",
+    "createdAt": "1/23/2024"
+  },
+  {
+    "id": 10,
+    "title": "Report download generating empty file",
+    "description": "PDF export returns a blank document.",
+    "customer": "Shazia Akter",
+    "priority": "HIGH PRIORITY",
+    "status": "Open",
+    "createdAt": "1/24/2024"
+  }
+]
